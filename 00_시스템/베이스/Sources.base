@@ -1,0 +1,15 @@
+filters:
+  and:
+    - file.folder == "20_출처"
+views:
+  - type: table
+    name: Sources
+    order:
+      - file.name
+      - source_type
+      - status
+      - collected
+      - processed
+    sort:
+      - property: collected
+        direction: DESC

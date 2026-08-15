@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.folder == "80_검토"
+views:
+  - type: table
+    name: 검토 필요
+    order:
+      - file.name
+      - reason
+      - created
+      - resolved
+    sort:
+      - property: created
+        direction: DESC

@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.folder == "10_위키"
+views:
+  - type: table
+    name: 최근 업데이트
+    order:
+      - file.name
+      - domains
+      - updated
+    sort:
+      - property: updated
+        direction: DESC
+    limit: 30

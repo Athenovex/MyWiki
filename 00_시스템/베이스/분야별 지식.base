@@ -1,0 +1,84 @@
+filters:
+  and:
+    - file.folder == "10_위키"
+views:
+  - type: table
+    name: AI
+    filters:
+      and:
+        - domains.contains("AI")
+    order:
+      - file.name
+      - type
+      - domains
+      - updated
+  - type: table
+    name: automation
+    filters:
+      and:
+        - domains.contains("automation")
+    order:
+      - file.name
+      - type
+      - domains
+      - updated
+  - type: table
+    name: development
+    filters:
+      and:
+        - domains.contains("development")
+    order:
+      - file.name
+      - type
+      - domains
+      - updated
+  - type: table
+    name: content
+    filters:
+      and:
+        - domains.contains("content")
+    order:
+      - file.name
+      - type
+      - domains
+      - updated
+  - type: table
+    name: productivity
+    filters:
+      and:
+        - domains.contains("productivity")
+    order:
+      - file.name
+      - type
+      - domains
+      - updated
+  - type: table
+    name: business
+    filters:
+      and:
+        - domains.contains("business")
+    order:
+      - file.name
+      - type
+      - domains
+      - updated
+  - type: table
+    name: marketing
+    filters:
+      and:
+        - domains.contains("marketing")
+    order:
+      - file.name
+      - type
+      - domains
+      - updated
+  - type: table
+    name: real-estate
+    filters:
+      and:
+        - domains.contains("real-estate")
+    order:
+      - file.name
+      - type
+      - domains
+      - updated

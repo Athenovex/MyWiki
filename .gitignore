@@ -1,0 +1,14 @@
+# Obsidian local/workspace state (not shared knowledge)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — never commit
+.env
+*.key
+*credentials*

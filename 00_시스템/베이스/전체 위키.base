@@ -1,0 +1,15 @@
+filters:
+  and:
+    - file.folder == "10_위키"
+views:
+  - type: table
+    name: 전체 위키
+    order:
+      - file.name
+      - type
+      - domains
+      - status
+      - updated
+    sort:
+      - property: file.name
+        direction: ASC

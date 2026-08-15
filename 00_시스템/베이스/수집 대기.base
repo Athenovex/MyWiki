@@ -1,0 +1,13 @@
+filters:
+  and:
+    - file.folder == "01_수집"
+views:
+  - type: table
+    name: 수집 대기
+    order:
+      - file.name
+      - source_type
+      - collected
+    sort:
+      - property: collected
+        direction: DESC

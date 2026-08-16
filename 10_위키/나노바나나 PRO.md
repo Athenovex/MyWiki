@@ -4,7 +4,7 @@ type: product
 status: canonical
 aliases: ["Nano Banana Pro"]
 domains: ["AI", "content"]
-related: ["[[Gemini]]", "[[이미지·영상 생성 프롬프트]]"]
+related: ["[[Gemini]]", "[[이미지·영상 생성 프롬프트]]", "[[프롬프트 엔지니어링]]"]
 sources: ["[[251128_나노바나나_PRO]]"]
 created: 2026-08-15
 updated: 2026-08-16
@@ -128,6 +128,7 @@ p.34는 여러 요소(패널 구성·대사·전체 스타일 노트)를 하나�
 
 - [[Gemini]] — 나노바나나 PRO가 속한 상위 제품군 (NARROWER 관계)
 - [[이미지·영상 생성 프롬프트]] — 나노바나나 PRO 사용 시 적용하는 일반화된 프롬프트 원칙
+- [[프롬프트 엔지니어링]] — 나노바나나 PRO의 이미지 프롬프트도 근본적으로 이 원칙(구체성·역할·맥락) 위에서 작동
 
 ## 출처
 

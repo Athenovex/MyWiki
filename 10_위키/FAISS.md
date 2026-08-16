@@ -22,29 +22,29 @@ FAISS(Facebook AI Similarity Search)는 Meta(구 Facebook)가 개발한 오픈�
 
 출처 자료의 "FAISS 벡터 DB에는 무엇이 저장될까? (LangChain 기준)" 다이어그램에 실린 과정과 표를 그대로 옮긴 것이다. 문서(Document 객체, `page_content` + `metadata`)를 임베딩 모델(다이어그램 예시: **OpenAI Embeddings, `text-embedding-ada-002`**)로 벡터화한 뒤, `FAISS.from_documents()`를 실행하면 다음 3가지(+연결 정보)가 저장된다.
 
-1. **FAISS Index** — 벡터(임베딩) 저장소: 의미 검색을 위한 벡터들이 ID별로 저장되는 인덱스. 실제 유사도 계산·검색이 일어나는 핵심 구조다.
+**① FAISS Index** — 벡터(임베딩) 저장소: 의미 검색을 위한 벡터들이 ID별로 저장되는 인덱스. 실제 유사도 계산·검색이 일어나는 핵심 구조다.
 
-   | ID | 임베딩 벡터 |
-   |---|---|
-   | 0 | [0.123, -0.456, ..., 0.789] |
-   | 1 | [-0.111, 0.234, ..., -0.321] |
-   | 2 | [0.987, -0.654, ..., 0.111] |
+| ID | 임베딩 벡터 |
+|---|---|
+| 0 | [0.123, -0.456, ..., 0.789] |
+| 1 | [-0.111, 0.234, ..., -0.321] |
+| 2 | [0.987, -0.654, ..., 0.111] |
 
-2. **DocStore** — 원본 텍스트(page_content) + metadata 저장소: 검색 후 사람이 읽을 원문을 보여주고 출처 정보를 제공하기 위해 벡터와 별도로 저장한다.
+**② DocStore** — 원본 텍스트(page_content) + metadata 저장소: 검색 후 사람이 읽을 원문을 보여주고 출처 정보를 제공하기 위해 벡터와 별도로 저장한다.
 
-   | ID | page_content (원본 텍스트) | metadata (참조 정보) |
-   |---|---|---|
-   | doc_0 | "문서 내용 ..." | {"source": "a.pdf", "page": 1} |
-   | doc_1 | "문서 내용 ..." | {"source": "a.pdf", "page": 2} |
-   | doc_2 | "문서 내용 ..." | {"source": "b.pdf", "page": 5} |
+| ID | page_content (원본 텍스트) | metadata (참조 정보) |
+|---|---|---|
+| doc_0 | "문서 내용 ..." | {"source": "a.pdf", "page": 1} |
+| doc_1 | "문서 내용 ..." | {"source": "a.pdf", "page": 2} |
+| doc_2 | "문서 내용 ..." | {"source": "b.pdf", "page": 5} |
 
-3. **index_to_docstore_id** — 연결 정보: FAISS Index의 벡터(ID)와 DocStore의 문서(ID)를 연결하는 매핑. 벡터 검색 결과를 사람이 읽을 수 있는 원문으로 되돌리는 다리 역할을 한다.
+**③ index_to_docstore_id** — 연결 정보: FAISS Index의 벡터(ID)와 DocStore의 문서(ID)를 연결하는 매핑. 벡터 검색 결과를 사람이 읽을 수 있는 원문으로 되돌리는 다리 역할을 한다.
 
-   | FAISS Index ID (벡터) | DocStore ID (문서) |
-   |---|---|
-   | 0 | doc_0 |
-   | 1 | doc_1 |
-   | 2 | doc_2 |
+| FAISS Index ID (벡터) | DocStore ID (문서) |
+|---|---|
+| 0 | doc_0 |
+| 1 | doc_1 |
+| 2 | doc_2 |
 
 출처 자료의 "정리" 요약: ① page_content → 임베딩 벡터 생성 후 FAISS Index에 저장 ② 원본 텍스트(page_content)도 DocStore에 저장 ③ metadata(출처, 페이지 번호 등)도 DocStore에 저장 ④ 벡터(ID)와 문서(ID)를 연결하는 매핑 정보(index_to_docstore_id) 저장. 핵심은 "page_content(텍스트)를 숫자 벡터로 변환하여 의미를 컴퓨터가 이해할 수 있도록 만드는" 것이다.
 

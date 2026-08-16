@@ -22,24 +22,26 @@ Vertex AI는 Google Cloud가 제공하는 완전관리형 AI/ML 플랫폼으로,
 
 [[동국대_교육자료1]] p.5 인포그래픽 "Google Cloud — Vertex AI란? — ML 개발의 모든 단계를 하나로 통합한 Google Cloud의 완전관리형 AI 플랫폼"의 3단 구조를 그대로 옮기면 다음과 같다.
 
-1. **데이터 소스**:
-   - Cloud Storage (파일, 이미지, 동영상 등)
-   - BigQuery (구조화 데이터)
-   - Pub/Sub, Dataflow (실시간 스트리밍 데이터)
-   - Cloud SQL, Spanner 등 (데이터베이스)
-   - 온프레미스 데이터 (Cloud VPN / Interconnect)
-2. **Vertex AI – 통합 ML 플랫폼**: 5개 열로 구성된 파이프라인이 하나의 플랫폼 안에 있다.
-   - **데이터 준비**: 데이터 라벨링(AutoML Data Labeling), 데이터셋 관리(Feature Store)
-   - **모델 개발**: AutoML(자동 모델 생성), 커스텀 학습(TensorFlow, XGBoost 등), 분산 학습 지원
-   - **모델 관리**: 모델 버전 관리, 모델 레지스트리, 실험 추적(Experiments)
-   - **모델 배포**: 엔드포인트 배포(온라인 예측), 배치 예측, 스케일 자동 조정
-   - **모니터링 & 관리**: 성능 모니터링, 데이터 드리프트 감지, 모델 성능 검증
-   - 이 5개 열 전체를 감싸는 **공통 기반**: IAM & 보안, VPC Service Controls, 암호화, 로깅 & 감사, 규정 준수
-3. **활용(예측 & 운영)**:
-   - 실시간 예측 서비스 (웹/모바일 앱, API)
-   - 배치 예측 결과 (보고서, 대시보드)
-   - 비즈니스 인사이트 (의사결정 지원)
-   - 앱 및 서비스 통합 (Workflow, Chatbot 등)
+**① 데이터 소스**:
+- Cloud Storage (파일, 이미지, 동영상 등)
+- BigQuery (구조화 데이터)
+- Pub/Sub, Dataflow (실시간 스트리밍 데이터)
+- Cloud SQL, Spanner 등 (데이터베이스)
+- 온프레미스 데이터 (Cloud VPN / Interconnect)
+
+**② Vertex AI – 통합 ML 플랫폼**: 5개 열로 구성된 파이프라인이 하나의 플랫폼 안에 있다.
+
+| 데이터 준비 | 모델 개발 | 모델 관리 | 모델 배포 | 모니터링 & 관리 |
+|---|---|---|---|---|
+| 데이터 라벨링(AutoML Data Labeling)<br>데이터셋 관리(Feature Store) | AutoML(자동 모델 생성)<br>커스텀 학습(TensorFlow, XGBoost 등)<br>분산 학습 지원 | 모델 버전 관리<br>모델 레지스트리<br>실험 추적(Experiments) | 엔드포인트 배포(온라인 예측)<br>배치 예측<br>스케일 자동 조정 | 성능 모니터링<br>데이터 드리프트 감지<br>모델 성능 검증 |
+
+이 5개 열 전체를 감싸는 **공통 기반**: IAM & 보안, VPC Service Controls, 암호화, 로깅 & 감사, 규정 준수
+
+**③ 활용(예측 & 운영)**:
+- 실시간 예측 서비스 (웹/모바일 앱, API)
+- 배치 예측 결과 (보고서, 대시보드)
+- 비즈니스 인사이트 (의사결정 지원)
+- 앱 및 서비스 통합 (Workflow, Chatbot 등)
 
 슬라이드 하단의 **활용 예시**: 고객 이탈 예측, 수요 예측, 이미지/문서 분석, 챗봇/상담 자동화, 이상 탐지, 추천 시스템, "...and more!"
 

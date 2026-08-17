@@ -9,7 +9,7 @@ author:
 published:
 collected: 2026-08-01
 processed: true
-target_notes: ["[[Fable]]"]
+target_notes: ["[[Claude]]"]
 ---
 
 # AI 최강 모델 페이블 모드 세팅 가이드
@@ -29,7 +29,7 @@ STEP1(세팅 파일 다운로드) → STEP2(프로젝트 생성) → STEP3(파�
 
 ## 위키 반영
 
-- [[Fable]] 신규 생성 — "Fable 모드 (시스템 프롬프트 이식)" 섹션 전체 반영
+- [[Claude]] 신규 생성 — "Fable 모드 (시스템 프롬프트 이식)" 섹션 전체 반영
 
 ## 참고
 

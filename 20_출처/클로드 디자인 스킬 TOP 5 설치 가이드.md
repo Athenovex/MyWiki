@@ -9,7 +9,7 @@ author: "에트 매거진"
 published:
 collected: 2026-08-01
 processed: true
-target_notes: ["[[Claude 에이전트 스킬]]"]
+target_notes: ["[[Claude]]"]
 ---
 
 # 클로드 디자인 스킬 TOP 5 설치 가이드
@@ -29,7 +29,7 @@ STEP0~5: 터미널 열기 → Claude Code 설치 확인/설치 → 5개 스킬 �
 
 ## 위키 반영
 
-- [[Claude 에이전트 스킬]] 업데이트 — 5개 스킬 상세(용도·GitHub 링크) 카탈로그에 반영
+- [[Claude]] 업데이트 — 5개 스킬 상세(용도·GitHub 링크) 카탈로그에 반영
 
 ## 참고
 

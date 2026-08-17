@@ -4,7 +4,7 @@ type: tool
 status: canonical
 aliases: []
 domains: ["AI", "development", "content"]
-related: ["[[GPT-5.6]]", "[[Claude Code]]", "[[프롬프트 엔지니어링]]"]
+related: ["[[GPT-5.6]]", "[[Claude|Claude Code]]", "[[프롬프트 엔지니어링]]"]
 sources: ["[[챗컷 코덱스 사용 가이드]]", "[[GPT-5.6 실전 활용 가이드]]", "[[2026 에디터가 쓰는 AI 도구 정리]]"]
 created: 2026-08-17
 updated: 2026-08-17
@@ -12,7 +12,7 @@ updated: 2026-08-17
 
 # Codex
 
-> OpenAI의 코딩 전용 AI 에이전트. [[GPT-5.6]]의 3개 모드 중 하나(개발자용)이자, 데스크톱 앱으로도 제공되어 플러그인 생태계(예: 챗컷)를 갖춘다. [[Claude Code]]에 대응하는 OpenAI 진영의 코딩 에이전트로 이해할 수 있다.
+> OpenAI의 코딩 전용 AI 에이전트. [[GPT-5.6]]의 3개 모드 중 하나(개발자용)이자, 데스크톱 앱으로도 제공되어 플러그인 생태계(예: 챗컷)를 갖춘다. [[Claude|Claude Code]]에 대응하는 OpenAI 진영의 코딩 에이전트로 이해할 수 있다.
 
 ## 개요
 
@@ -27,7 +27,7 @@ Codex 데스크톱에 플러그인으로 연결해 쓰는 AI 영상 편집기. C
 ## 관련 지식
 
 - [[GPT-5.6]] — Codex가 속한 모델 패밀리의 코딩 전용 실행 모드 (BROADER)
-- [[Claude Code]] — 유사한 포지션의 Anthropic 진영 코딩 에이전트 (RELATED)
+- [[Claude|Claude Code]] — 유사한 포지션의 Anthropic 진영 코딩 에이전트 (RELATED)
 
 ## 출처
 

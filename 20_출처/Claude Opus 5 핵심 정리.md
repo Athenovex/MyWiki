@@ -9,7 +9,7 @@ author:
 published: 2026-07-24
 collected: 2026-08-01
 processed: true
-target_notes: ["[[Claude Opus 5]]"]
+target_notes: ["[[Claude]]"]
 ---
 
 # Claude Opus 5 핵심 정리
@@ -29,7 +29,7 @@ Anthropic 공식 발표(2026-07-24)를 정리한 Claude Opus 5 소개 자료. �
 
 ## 위키 반영
 
-- [[Claude Opus 5]] 신규 생성 — 전체 내용 반영
+- [[Claude]] 신규 생성 — 전체 내용 반영
 
 ## 참고
 

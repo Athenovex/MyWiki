@@ -9,7 +9,7 @@ author:
 published:
 collected: 2026-08-01
 processed: true
-target_notes: ["[[Claude Code]]"]
+target_notes: ["[[Claude]]"]
 ---
 
 # Claude Code .claude 폴더 완전 정리
@@ -29,7 +29,7 @@ target_notes: ["[[Claude Code]]"]
 
 ## 위키 반영
 
-- [[Claude Code]] 신규 생성 — `.claude` 폴더 구조 섹션 전체 반영
+- [[Claude]] 신규 생성 — `.claude` 폴더 구조 섹션 전체 반영
 
 ## 참고
 

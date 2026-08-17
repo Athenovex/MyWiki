@@ -9,7 +9,7 @@ author: "갓생맘"
 published:
 collected: 2026-08-01
 processed: true
-target_notes: ["[[Claude Code]]"]
+target_notes: ["[[Claude]]"]
 ---
 
 # 나만의 AI회사 만들기 가이드 초보자편
@@ -29,7 +29,7 @@ target_notes: ["[[Claude Code]]"]
 
 ## 위키 반영
 
-- [[Claude Code]] 업데이트 — "실전 워크플로우: AI 회사(부서화) 패턴" 섹션 반영
+- [[Claude]] 업데이트 — "실전 워크플로우: AI 회사(부서화) 패턴" 섹션 반영
 
 ## 참고
 

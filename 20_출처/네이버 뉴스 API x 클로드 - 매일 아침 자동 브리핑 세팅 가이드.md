@@ -9,7 +9,7 @@ author: "@prompt_what"
 published: 2026-07-16
 collected: 2026-08-01
 processed: true
-target_notes: ["[[Claude Cowork]]"]
+target_notes: ["[[Claude]]"]
 ---
 
 # 네이버 뉴스 API x 클로드 - 매일 아침 자동 브리핑 세팅 가이드
@@ -29,7 +29,7 @@ API 키 발급 → 첫 실행 테스트 프롬프트 → 예약 작업 등록 �
 
 ## 위키 반영
 
-- [[Claude Cowork]] 업데이트 — "활용 사례: 네이버 뉴스 API 자동 브리핑" 섹션 반영
+- [[Claude]] 업데이트 — "활용 사례: 네이버 뉴스 API 자동 브리핑" 섹션 반영
 
 ## 참고
 

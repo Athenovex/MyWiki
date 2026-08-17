@@ -77,7 +77,7 @@ NVIDIA Build의 모델은 **OpenAI 호환** 방식이라 이미 OpenAI 연동을
 
 ## NVIDIA 공식 에이전트 스킬 (참고)
 
-무료 API와는 별개로, NVIDIA가 [[Claude Code]]·Codex·Cursor 같은 코딩 에이전트에 자사 기술(CUDA, NeMo, Omniverse, 로보틱스 등)을 다루게 하는 공식 [[Claude 에이전트 스킬|스킬]]을 `npx skills add nvidia/skills`로 설치할 수 있다. 개발자·AI 엔지니어 대상이며, 일반 콘텐츠·업무 활용 목적이라면 무료 모델 API만으로 충분하다.
+무료 API와는 별개로, NVIDIA가 [[Claude|Claude Code]]·Codex·Cursor 같은 코딩 에이전트에 자사 기술(CUDA, NeMo, Omniverse, 로보틱스 등)을 다루게 하는 공식 [[Claude|스킬]]을 `npx skills add nvidia/skills`로 설치할 수 있다. 개발자·AI 엔지니어 대상이며, 일반 콘텐츠·업무 활용 목적이라면 무료 모델 API만으로 충분하다.
 
 ## 관련 지식
 

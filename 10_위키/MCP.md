@@ -4,7 +4,7 @@ type: standard
 status: canonical
 aliases: ["Model Context Protocol", "모델 컨텍스트 프로토콜"]
 domains: ["AI", "development", "automation"]
-related: ["[[Claude Code]]", "[[Claude]]"]
+related: ["[[Claude]]"]
 sources: ["[[클로드에 무조건 설치해야 할 24가지]]", "[[주말동안 마스터하는 클로드 가이드북]]"]
 created: 2026-08-17
 updated: 2026-08-17
@@ -40,11 +40,11 @@ MCP는 AI 모델에게 "손과 눈"을 달아주는 장치다. MCP 서버 하나
 
 ## 연결 방법
 
-[[Claude Code]]에서는 채팅창에 `/mcp` 입력 → 연결할 서비스 선택 → Authenticate로 브라우저 로그인하면 별도 터미널 명령 없이 연결된다. Claude Desktop 설정 파일(`mcpServers` JSON)에 직접 등록하는 방법도 있다.
+[[Claude|Claude Code]]에서는 채팅창에 `/mcp` 입력 → 연결할 서비스 선택 → Authenticate로 브라우저 로그인하면 별도 터미널 명령 없이 연결된다. Claude Desktop 설정 파일(`mcpServers` JSON)에 직접 등록하는 방법도 있다.
 
 ## 관련 지식
 
-- [[Claude Code]] — MCP를 실제로 연결해 쓰는 대표 실행 환경
+- [[Claude|Claude Code]] — MCP를 실제로 연결해 쓰는 대표 실행 환경
 
 ## 출처
 

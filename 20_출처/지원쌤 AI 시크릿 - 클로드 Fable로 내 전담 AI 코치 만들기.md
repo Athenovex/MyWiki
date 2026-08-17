@@ -9,7 +9,7 @@ author: "지원쌤"
 published:
 collected: 2026-08-01
 processed: true
-target_notes: ["[[Fable]]"]
+target_notes: ["[[Claude]]"]
 ---
 
 # 지원쌤 AI 시크릿 - 클로드 Fable로 내 전담 AI 코치 만들기
@@ -29,7 +29,7 @@ Fable 출시 배경(미 상무부 수출 통제 → 재개방), 복붙용 코치
 
 ## 위키 반영
 
-- [[Fable]] 신규 생성 — "전담 AI 코치 만들기" 섹션 반영, 출시 배경 반영
+- [[Claude]] 신규 생성 — "전담 AI 코치 만들기" 섹션 반영, 출시 배경 반영
 
 ## 참고
 

@@ -9,7 +9,7 @@ author: "리사권"
 published:
 collected: 2026-08-01
 processed: true
-target_notes: ["[[Claude Design]]"]
+target_notes: ["[[Claude]]"]
 ---
 
 # Claude Design 밤티 없애기
@@ -29,7 +29,7 @@ Wanted Design System 피그마 파일 복사 → Claude Design에 디자인 시�
 
 ## 위키 반영
 
-- [[Claude Design]] 업데이트 — "디자인 시스템 적용 워크플로우" 섹션에 [[매니패스트 + 클로드 디자인 200% 활용법]]과 통합 반영
+- [[Claude]] 업데이트 — "디자인 시스템 적용 워크플로우" 섹션에 [[매니패스트 + 클로드 디자인 200% 활용법]]과 통합 반영
 
 ## 참고
 

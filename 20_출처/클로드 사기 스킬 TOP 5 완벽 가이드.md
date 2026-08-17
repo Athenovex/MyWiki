@@ -9,7 +9,7 @@ author:
 published:
 collected: 2026-08-01
 processed: true
-target_notes: ["[[Claude 에이전트 스킬]]"]
+target_notes: ["[[Claude]]"]
 ---
 
 # 클로드 사기 스킬 TOP 5 완벽 가이드
@@ -29,7 +29,7 @@ Claude 스킬 TOP 5(Remotion, Claude Mem, UI/UX Pro Max, Marketing Skills, Super
 
 ## 위키 반영
 
-- [[Claude 에이전트 스킬]] 신규 생성 — 5개 스킬 카탈로그에 반영
+- [[Claude]] 신규 생성 — 5개 스킬 카탈로그에 반영
 
 ## 참고
 

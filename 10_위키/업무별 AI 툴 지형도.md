@@ -4,7 +4,7 @@ type: concept
 status: canonical
 aliases: ["2026 업무별 AI 툴", "에디터 AI 도구"]
 domains: ["AI", "productivity"]
-related: ["[[Claude]]", "[[Codex]]", "[[Claude 에이전트 스킬]]"]
+related: ["[[Claude]]", "[[Codex]]", "[[Claude|Claude 에이전트 스킬]]"]
 sources: ["[[2026 에디터가 쓰는 AI 도구 정리]]"]
 created: 2026-08-17
 updated: 2026-08-17
@@ -28,7 +28,7 @@ updated: 2026-08-17
 | 이미지 생성 | GPT Image 2 | 대화하듯 그림 수정, 글자도 정확하게 렌더링 | 썸네일, 포스터, 이미지 편집 |
 | 서비스 기획 | 매니패스트 | 아이디어 한 줄로 기획안 완성 | 서비스 기획, 사용자 동선, 화면 설계 |
 | UX/UI 디자인 | Pencil.dev | 화면 디자인 → 바로 코드 변환 | 앱·웹 UI 디자인 + 개발 |
-| 영상 제작 | Remotion | 코드로 영상 자동·대량 생성 | 데이터 기반·개인화 영상 제작 ([[Claude 에이전트 스킬]] 참고) |
+| 영상 제작 | Remotion | 코드로 영상 자동·대량 생성 | 데이터 기반·개인화 영상 제작 ([[Claude|Claude 에이전트 스킬]] 참고) |
 | 코딩 | [[Codex]] | 코드 작성·수정·업무 자동화 | 기능 개발, 버그 수정, 업무 자동화 |
 | 자동화 | Hermes | 쓸수록 똑똑해지는 실행형 AI 비서 | 반복 업무 자동 실행 |
 
@@ -36,7 +36,7 @@ updated: 2026-08-17
 
 - [[Claude]] — 글쓰기 영역 대표 도구, 이 지형도에서 유일하게 전용 Canonical Note가 있는 항목
 - [[Codex]] — 코딩 영역 대표 도구
-- [[Claude 에이전트 스킬]] — Remotion이 스킬 형태로 Claude Code에도 설치되는 관계
+- [[Claude|Claude 에이전트 스킬]] — Remotion이 스킬 형태로 Claude Code에도 설치되는 관계
 
 ## 출처
 

@@ -4,7 +4,7 @@ type: tool
 status: canonical
 aliases: ["포니테일"]
 domains: ["development", "AI"]
-related: ["[[Claude Code]]", "[[Codex]]"]
+related: ["[[Claude|Claude Code]]", "[[Codex]]"]
 sources: ["[[DM 자료 - 포니테일 설치법]]"]
 created: 2026-08-17
 updated: 2026-08-17
@@ -12,7 +12,7 @@ updated: 2026-08-17
 
 # Ponytail
 
-> [[Claude Code]]·[[Codex]]용 오픈소스 플러그인(MIT 라이선스, GitHub 스타 4.69만). AI가 코드를 짤 때 발생하는 과잉 엔지니어링·불필요한 코드량을 줄여주는 것을 목표로 한다.
+> [[Claude|Claude Code]]·[[Codex]]용 오픈소스 플러그인(MIT 라이선스, GitHub 스타 4.69만). AI가 코드를 짤 때 발생하는 과잉 엔지니어링·불필요한 코드량을 줄여주는 것을 목표로 한다.
 
 ## 개요
 
@@ -54,7 +54,7 @@ codex plugin marketplace add DietrichGebert/ponytail
 
 ## 관련 지식
 
-- [[Claude Code]] — 포니테일이 설치되는 주 실행 환경
+- [[Claude|Claude Code]] — 포니테일이 설치되는 주 실행 환경
 - [[Codex]] — 포니테일을 지원하는 또 다른 실행 환경 (설치 명령 체계가 다름)
 
 ## 출처

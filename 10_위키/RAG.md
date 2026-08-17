@@ -4,10 +4,10 @@ type: method
 status: canonical
 aliases: ["Retrieval-Augmented Generation", "검색 증강 생성"]
 domains: ["AI", "development"]
-related: ["[[LangChain]]", "[[임베딩]]", "[[FAISS]]"]
+related: ["[[LangChain]]", "[[임베딩]]", "[[FAISS]]", "[[프리랜서 진로 전략]]"]
 sources: ["[[동국대_교육자료1]]", "[[동국대캠퍼스타운_AI 어플리케이션 MVP 제작 과정 교안]]"]
 created: 2026-08-15
-updated: 2026-08-16
+updated: 2026-08-17
 ---
 
 # RAG (검색 증강 생성)
@@ -74,6 +74,7 @@ LLM이 맥락을 이해하고, 더 정확하고 신뢰성 높은 답변 생성
 - [[LangChain]] — RAG 파이프라인(문서 로딩→분할→벡터 저장→검색→생성)을 구현하는 대표적 프레임워크
 - [[임베딩]] — RAG의 검색 단계에서 문서와 질문을 벡터로 변환하는 데 사용
 - [[FAISS]] — RAG의 벡터 데이터베이스로 흔히 사용되는 라이브러리
+- [[프리랜서 진로 전략]] — 사내 문서 기반 RAG 챗봇 구축이 개인 프리랜서 기회 후보로 제시됨
 
 ## 출처
 

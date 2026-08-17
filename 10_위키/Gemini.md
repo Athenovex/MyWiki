@@ -4,7 +4,7 @@ type: product
 status: canonical
 aliases: []
 domains: ["AI"]
-related: ["[[나노바나나 PRO]]", "[[Vertex AI]]", "[[프롬프트 엔지니어링]]", "[[숏폼 콘텐츠 제작]]", "[[초개인화 마케팅]]"]
+related: ["[[나노바나나 PRO]]", "[[Vertex AI]]", "[[프롬프트 엔지니어링]]", "[[숏폼 콘텐츠 제작]]", "[[초개인화 마케팅]]", "[[Gemini Omni]]"]
 sources: ["[[동국대_교육자료1]]", "[[AI미디어콘텐츠_크리에이터과정_교안]]", "[[AI마케팅_이커머스_전문가과정]]"]
 created: 2026-08-15
 updated: 2026-08-16
@@ -107,6 +107,7 @@ def handle_client_request(user_question: str) -> str:
 
 ## 관련 지식
 
+- [[Gemini Omni]] — Gemini 계열의 문장 지시형 영상 생성·편집 모델 (NARROWER)
 - [[나노바나나 PRO]] — Gemini 계열의 고급 이미지 생성 모델 (NARROWER)
 - [[Vertex AI]] — Gemini API를 포함해 ML 워크플로우 전체를 관리하는 Google Cloud의 통합 플랫폼
 - [[프롬프트 엔지니어링]] — Gemini를 효과적으로 활용하기 위한 질문 설계 기법

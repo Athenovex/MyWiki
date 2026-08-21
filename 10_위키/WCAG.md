@@ -4,10 +4,10 @@ type: standard
 status: canonical
 aliases: ["Web Content Accessibility Guidelines", "웹 콘텐츠 접근성 지침", "웹 접근성 지침"]
 domains: ["development", "content"]
-related: []
+related: ["[[웹 접근성 QA 커리어]]"]
 sources: ["[[How to Meet WCAG (Quickref Reference)]]"]
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-08-21
 ---
 
 # WCAG (Web Content Accessibility Guidelines)
@@ -71,7 +71,7 @@ UI 컴포넌트와 내비게이션은 조작 가능해야 한다 — 마우스�
 
 ## 관련 지식
 
-(연결된 Canonical Note 없음 — 프론트엔드/UI 관련 자료 유입 시 연결 예정)
+- [[웹 접근성 QA 커리어]] — 이 표준을 실무 기준으로 삼는 접근성 QA/컨설팅/감사 직무군
 
 ## 출처
 
